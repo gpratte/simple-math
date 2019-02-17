@@ -1,26 +1,22 @@
 package com.example;
 
-import java.util.Arrays;
-
 /**
- * Hello world!
- *
+ * Simple math with just plus and minus.
+ * Only zero or positive integers.
+ * Input is always well formed (do not have to validate)
+ * <p>Example input</p>
+ * <ul>
+ *     <li>500</li>
+ *     <li>1+2</li>
+ *     <li>43-9</li>
+ *     <li>42+42-42-12</li>
+ * </ul>
  */
 public class Calculator
 {
     /**
-     * Simple math with just plus and minus.
-     * Only zero or positive integers.
-     * Input is always well formed (do not have to validate)
-     * <p>Example input</p>
-     * <ul>
-     *     <li>500</li>
-     *     <li>1+2</li>
-     *     <li>43-9</li>
-     *     <li>42+42-42-12</li>
-     * </ul>
-     * @param in
-     * @return
+     * @param in the string to calculate
+     * @return the calculation
      */
     public int calculate(String in) {
         // Get the operators
